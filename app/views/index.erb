@@ -1,5 +1,5 @@
 <% @recipes.each do | r | %>
   <p><%= r.name %></p>
-  <%= binding.pry %>
+  <% binding.pry %>
   <p><a href="/recipes/<%= r.id %>"></a></p>
 <% end %>
